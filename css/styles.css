@@ -35,6 +35,22 @@ body {
   background-color: var(--dsc-color-bg-primary);
 }
 
+/*------------------------------------------------------------------------------------------------*/
+/*generic styles*/
+
+.dsc-container {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.dsc-mb20 {
+  margin-bottom: 20px;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+/*header styles*/
+
 header {
   height: 70px;
   background-color: var(--dsc-color-bg-secondary);
@@ -48,11 +64,17 @@ nav {
   justify-content: space-between;
 }
 
-.dsc-container {
-  max-width: 960px;
-  width: 100%;
-  margin: 0 auto;
+nav h1 {
+  font-size: 24px;
 }
+
+nav a {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+/*card styles*/
 
 .dsc-card {
   background-color: var(--dsc-color-card-bg);
@@ -63,6 +85,9 @@ nav {
 .dsc-line-bottom {
   border-bottom: 1px solid var(--dsc-color-card-border);
 }
+
+/*------------------------------------------------------------------------------------------------*/
+/*button styles*/
 
 .dsc-btn-container {
   width: 220px;
@@ -89,8 +114,4 @@ nav {
   background-color: var(--dsc-color-btn-inverse);
   color: var(--dsc-color-btn-primary);
   border: 1px solid var(--dsc-color-btn-primary);
-}
-
-.dsc-mb20 {
-  margin-bottom: 20px;
 }
