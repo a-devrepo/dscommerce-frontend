@@ -48,29 +48,29 @@ nav {
   justify-content: space-between;
 }
 
-.container {
+.dsc-container {
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
 }
 
-.card {
+.dsc-card {
   background-color: var(--dsc-color-card-bg);
   border-radius: 4px;
   border: 1px solid var(--dsc-color-card-border);
 }
 
-.line-bottom {
+.dsc-line-bottom {
   border-bottom: 1px solid var(--dsc-color-card-border);
 }
 
-.btn-container {
+.dsc-btn-container {
   width: 220px;
   display: grid;
   grid-gap: 20px;
 }
 
-.btn {
+.dsc-btn {
   height: 42px;
   border-radius: 4px;
   font-size: 16px;
@@ -80,17 +80,17 @@ nav {
   align-items: center;
 }
 
-.btn-blue {
+.dsc-btn-blue {
   background-color: var(--dsc-color-btn-primary);
   color: var(--dsc-color-btn-inverse);
 }
 
-.btn-white {
+.dsc-btn-white {
   background-color: var(--dsc-color-btn-inverse);
   color: var(--dsc-color-btn-primary);
   border: 1px solid var(--dsc-color-btn-primary);
 }
 
-.mb20 {
+.dsc-mb20 {
   margin-bottom: 20px;
 }
