@@ -1,58 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/product-form.css" />
-    <title>DSCommerce</title>
-  </head>
-  <body>
-    <header>
-      <nav class="dsc-container">
-        <h1>DSCommerce</h1>
-        <a href="#">Entrar</a>
-      </nav>
-    </header>
-    <main>
-      <section id="product-form-section" class="dsc-container"></section>
-      <div class="dsc-product-form-container">
-        <form class="dsc-card dsc-form">
-          <h2>Dados do produto</h2>
-          <div class="dsc-form-control-container">
-            <div>
-              <input class="dsc-form-control" type="text" placeholder="Nome" />
-            </div>
-            <div>
-              <input class="dsc-form-control" type="text" placeholder="Preço" />
-            </div>
-            <div>
-              <input
-                class="dsc-form-control"
-                type="text"
-                placeholder="Imagem"
-              />
-            </div>
-            <div>
-              <select class="dsc-form-control dsc-select" required>
-                <option value="" disabled selected>Categorias</option>
-                <option value="1">Valor 1</option>
-                <option value="2">Valor 2</option>
-              </select>
-            </div>
-            <div>
-              <textarea
-                class="dsc-form-control dsc-textarea"
-                placeholder="Descrição"
-              ></textarea>
-            </div>
-          </div>
 
-          <div class="dsc-mt20 dsc-product-form-buttons">
-            <button type="reset" class="dsc-btn dsc-btn-white">Cancelar</button>
-            <button type="submit" class="dsc-btn dsc-btn-blue">Salvar</button>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/product-form.css" />
+  <title>DSCommerce</title>
+</head>
+
+<body>
+  <header class="dsc-header-admin">
+    <nav class="dsc-container">
+      <h1>DSC Admin</h1>
+      <a href="#">Entrar</a>
+    </nav>
+  </header>
+  <main>
+    <section id="product-form-section" class="dsc-container"></section>
+    <div class="dsc-product-form-container">
+      <form class="dsc-card dsc-form">
+        <h2>Dados do produto</h2>
+        <div class="dsc-form-control-container">
+          <div>
+            <input class="dsc-form-control" type="text" placeholder="Nome" />
           </div>
-        </form>
-      </div>
-    </main>
-  </body>
+          <div>
+            <input class="dsc-form-control" type="text" placeholder="Preço" />
+          </div>
+          <div>
+            <input class="dsc-form-control" type="text" placeholder="Imagem" />
+          </div>
+          <div>
+            <select class="dsc-form-control dsc-select" required>
+              <option value="" disabled selected>Categorias</option>
+              <option value="1">Valor 1</option>
+              <option value="2">Valor 2</option>
+            </select>
+          </div>
+          <div>
+            <textarea class="dsc-form-control dsc-textarea" placeholder="Descrição"></textarea>
+          </div>
+        </div>
+
+        <div class="dsc-mt20 dsc-product-form-buttons">
+          <button type="reset" class="dsc-btn dsc-btn-white">Cancelar</button>
+          <button type="submit" class="dsc-btn dsc-btn-blue">Salvar</button>
+        </div>
+      </form>
+    </div>
+  </main>
+</body>
+
 </html>
